@@ -17,7 +17,44 @@
     position: relative; 
     width: 500px;
     height:590px;
-    top:90px;
+    top:5px;
     left:500px;
     
+}
+
+.header{
+    background-color: darkmagenta;
+    height: 90px;
+
+}
+
+.container{
+    margin:0px 200px;
+}
+
+.header-line{
+    padding-top: 60px;
+    display:flex;
+}
+
+.nav-item{
+    color:#fff;
+    text-decoration: none;
+    font-weight:700;
+    font-size: 14px;
+    margin-right:25px;
+}
+
+.footer{
+
+}
+
+.footer-item{
+    color:#fff;
+    position: relative; 
+    left: 160px;
+    text-decoration: none;
+    font-weight:700;
+    font-size: 14px;
+    margin-right:25px;
 }

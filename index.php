@@ -4,14 +4,39 @@
        <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
-     
-     <title>Домашняя страница</title>
+      <?php require "title.php"; ?>
   </head>
   <body>
       
       <div class='header'>
           <div class='container'>
              <div class='header-line'>
+
+                    <a class="button" href="<?php 
+
+                    $name='Обратная связь'; 
+                    $link='connection.php'; 
+                    $current_page=true; 
+
+                    echo $link; ?>"><?php 
+
+                    if( $current_page ) 
+                        echo $name;?></a>
+
+
+                    <a class="button" href="<?php 
+
+                    $name='Войти'; 
+                    $link='autorization.php'; 
+                    $current_page=true; 
+
+                    echo $link; ?>"><?php 
+
+                    if( $current_page ) 
+                    echo $name;?></a>
+
+
+                
                  <div class='nav'>
                      <a class ='nav-item' href="@">Моя страница </a>
                      <a class ='nav-item' href="@"> Главная </a>
@@ -48,13 +73,34 @@
               <td align="center">Студент</td>
           </tr>
       </table>
-       </div>    
-     
-     <div class='footer'>
+
+            <div class="massive">
+                <?php require "massive.php";?>
+            </div>
+
+            <div class="photo">
+            <?php 
+            $s = date('s');
+            $os = $s % 2;
+
+            if ($os === 0)
+            $name = 'avatar.jpg';
+            else
+            $name = 'avatar2.jpg';
+
+            echo '<img src = "'.$name.'" alt="Меняющаяся фотография" id = "body" height = 250px>';
+            ?>
+            </div>
+
+       </div>  
+    
+  </body> 
+  <div class='footer'>
           <div class= 'footer-line'></div>
          <a class = 'footer-item'>Почта Kotushevanatalie@gmail.com</a>
          <a class = 'footer-item'>Телефон 8(950)994-30-74</a>
+         <a class = 'footer-item' id = "foot"> <?php require "foot.php"; ?>
  
       </div>
-  </body> 
+
  </html>

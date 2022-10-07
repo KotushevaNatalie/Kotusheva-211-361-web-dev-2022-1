@@ -10,6 +10,8 @@
     height: 100vh;
     background-repeat:no-repeat;
     background-size:cover; 
+
+
     
 }
 
@@ -48,4 +50,29 @@ table{
     position:relative;
     top:110px;
     color:#fff;
+}
+
+.button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color:#fff;
+    position: relative; 
+    left: 1100px;
+    background-color:deeppink;
+    border-radius: 6px;
+    border: 2px solid darkred;
+}
+
+
+.massive{
+    position: relative;
+    left: 500px;
+    top: 150px;
+
+}
+
+.photo{
+    position: absolute;
+    left: 1110px;
+    top: 300px;
 }

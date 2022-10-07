@@ -7,10 +7,25 @@
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     
-    <title>Обратная связь</title>
+     <?php require "title.php"; ?>
  </head>
  <body bgcolor="#800080"> 
      <header> 
+        <div class='container'>
+            <div class='header-line'>
+                
+                <div class ='nav'>
+                    <a class ='nav-item' href="@">Моя страница </a>
+                    <a class ='nav-item' href="@"> Главная </a>
+                    <a class ='nav-item' href="@"> Контакты </a>
+                    <a class ='nav-item' href="@"> Достижения </a>
+                </div>
+                <div class='cart'>
+                <a href="a">
+                    <img src="background" alt=""></a>
+                </div>
+            </div>
+             </div>
             
     </header>
      
@@ -51,6 +66,15 @@
                  </div>
              
      </main>
+
+     <footer>
+         <div class='footer'>
+         <div class= 'footer-line'></div>
+            <p class = 'footer-item'>Почта Kotushevanatalie@gmail.com Телефон 8(950)994-30-74</p>
+
+     </div>
+     
+     </footer>
        
      
  </body> 
