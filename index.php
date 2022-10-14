@@ -4,6 +4,8 @@
        <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+      
       <?php require "title.php"; ?>
   </head>
   <body>
@@ -14,26 +16,27 @@
 
                     <a class="button" href="<?php 
 
-                    $name='Обратная связь'; 
-                    $link='connection.php'; 
-                    $current_page=true; 
+                        $name='Обратная связь'; 
+                        $link='connection.php'; 
+                        $current_page=true; 
 
-                    echo $link; ?>"><?php 
+                        echo $link; ?>"><?php 
 
-                    if( $current_page ) 
-                        echo $name;?></a>
+                        if($current_page) 
+                            echo $name;?></a>
 
 
                     <a class="button" href="<?php 
 
-                    $name='Войти'; 
-                    $link='autorization.php'; 
-                    $current_page=true; 
+                        $name='Войти'; 
+                        $link='autorization.php'; 
+                        $current_page=true; 
 
-                    echo $link; ?>"><?php 
+                        echo $link; ?>">
+                        <?php 
 
-                    if( $current_page ) 
-                    echo $name;?></a>
+                        if($current_page) 
+                            echo $name;?></a>
 
 
                 
