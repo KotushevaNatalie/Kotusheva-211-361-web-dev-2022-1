@@ -30,31 +30,38 @@
     </header>
      
      <main>
+
          <div class='head'>                 
-            <form> 
-            <p class='condition'> Форма для заполнения жалоб/обращений</p>
-            <p class='condition'>Фамилия <input type="text" size="40"></p>
-            <p class='condition'>Имя <input type="text" size="40"></p>
-            <p class='condition'>Отчество <input type="text" size="40"></p>
-            <p class='condition'>Почта <input type="text" size="40"></p>
+         <form action="home.php" method="post">
+         
+            <p class='condition'> Фамилия <input type="text" name = 'surname' size="40"  value="<?php if (isset($_GET['surname'])){
+                        echo $_GET['surname']; }?>"/></p>
+            <p class='condition'>Имя <input type="text" name = 'name' size="40"  value="<?php if (isset($_GET['name'])){
+                        echo $_GET['name']; }?>"/></p>
+            <p class='condition'>Отчество <input type="text" name = 'second_name' size="40" value="<?php if (isset($_GET[ 'second_name'])){
+                        echo $_GET['second_name']; }?>"/></p>
+            
+            <p class='condition'>Почта <input type="text" name = 'email' size="40" value="<?php if (isset($_GET['email'])){
+                        echo $_GET['email']; }?>"/>></p>
             <p class='condition'>Откуда вы узнали о нас?</p>
+
                 
-            <input class='condition' type="radio" name="browser" id="rad1" >
-             <label class='condition' for="rad1">От друзей</label>
-            <p><input class='condition' type="radio" name="browser" id="rad2" >
-                <label class='condition' for="rad2">Из интернета</label>
+            <input class='condition' type="radio" id="contactChoice1" name="source" value="1" <?php if (isset($_GET['source']) & $_GET['source']='1'){
+                        echo 'checked';}?>/>
+              <label class='condition' for="contactChoice1">От друзей</label>
+              <input class='condition' type="radio" id="contactChoice2" name="source" value="2" <?php if (isset($_GET['source']) & $_GET['source']='2'){
+                        echo 'checked';}?>/>
+              <label class='condition' for="contactChoice2">Из интернета</label>
                 
             <p class='condition'>Тип обращения
-                <select >
-                    <option>Жалоба</option>
-                    <option>Предложение</option>
+                <p><select class='condition' size="1" name = 'category' >
+                    <option value="2">Жалоба</option>
+                    <option value="1">Предложение</option>
                 </select>
                 <p>
             <p class='condition'>Текст сообщения</p><p> 
              <textarea class='condition' name="comment" cols="40" rows="3"></textarea></p>
                 
-                
-            
                 <p><input class='condition' type="file" name="f"></p>
                 <p><input class='condition' id="check" type="checkbox">
                 <label class='condition' for="check">Я согласен/согласна на обработку персональных данных</label></p>
@@ -62,10 +69,11 @@
                 <p><input class='condition' type="submit" value="Отправить"></p>
     
                 
-        </form>
-                 </div>
+            </form>
+         </div>
              
      </main>
+
 
      <footer>
          <div class='footer'>

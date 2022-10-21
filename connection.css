@@ -9,7 +9,8 @@
     left: 50px;
     top: 40px;
     color:black;
-    
+
+    white-space: pre;
 }
 
 .head{
@@ -19,7 +20,7 @@
     height:590px;
     top:5px;
     left:500px;
-    
+
 }
 
 .header{
