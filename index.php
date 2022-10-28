@@ -41,8 +41,41 @@
 
                 
                  <div class='nav'>
-                     <a class ='nav-item' href="@">Моя страница </a>
-                     <a class ='nav-item' href="@"> Главная </a>
+                    <a class ='nav-item' href="@">Моя страница </a>
+                    <!-- a class="nav-item" href="index.php">Главная</a -->
+                    <a class="nav-item" href="<?php	
+
+                        $name='Главная'; 
+                        $link='index.php';	
+                        $current_page=true;	
+
+                        echo $link;	
+
+                    ?>"><?php	
+
+                        if( $current_page )	
+                            echo $name;
+
+                    ?></a>
+
+
+                    <!-- a class="nav-item" href="actions.php">Математические действия</a -->
+                    <a class="nav-item" href="<?php	
+
+                        $name='Математические действия'; 
+                        $link='actions.php';	
+                        $current_page=true;	
+
+                        echo $link;	
+
+                    ?>"><?php	
+
+                        if( $current_page )	
+                            echo $name;
+
+                    ?></a>
+
+
                      <a class ='nav-item' href="@"> Контакты </a>
                      <a class ='nav-item' href="@"> Достижения </a>
                  </div>
@@ -53,6 +86,7 @@
              </div>
       
          </div>
+         
           <table border="2" align="center" width="40%" >
           <tr>
               <th color="#fff">Аватар</th>
@@ -81,29 +115,19 @@
                 <?php require "massive.php";?>
             </div>
 
-            <div class="photo">
-            <?php 
-            $s = date('s');
-            $os = $s % 2;
+            
 
-            if ($os === 0)
-            $name = 'avatar.jpg';
-            else
-            $name = 'avatar2.jpg';
-
-            echo '<img src = "'.$name.'" alt="Меняющаяся фотография" id = "body" height = 250px>';
-            ?>
-            </div>
-
-       </div>  
+       </div>
+       
+    </body>
     
-  </body> 
-  <div class='footer'>
-          <div class= 'footer-line'></div>
-         <a class = 'footer-item'>Почта Kotushevanatalie@gmail.com</a>
-         <a class = 'footer-item'>Телефон 8(950)994-30-74</a>
-         <a class = 'footer-item' id = "foot"> <?php require "foot.php"; ?>
+   
+    <div class='footer'>
+        <a class = 'footer-item'>Почта Kotushevanatalie@gmail.com</a>
+        <a class = 'footer-item'>Телефон 8(950)994-30-74</a>
+        <a class = 'footer-item' id = "foot"> <?php require "foot.php"; ?>
  
-      </div>
+    </div>
+
 
  </html>

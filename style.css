@@ -46,6 +46,7 @@
 .header-logo{
     margin: 100px 166px;
 }
+
 table{
     position:relative;
     top:110px;
@@ -75,4 +76,5 @@ table{
     position: absolute;
     left: 1110px;
     top: 300px;
+    border-radius: 30%;
 }
