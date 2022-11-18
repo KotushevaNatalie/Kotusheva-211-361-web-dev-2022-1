@@ -1,13 +1,20 @@
-.body{
+body {
     margin:0;
     font-family: 'Montserrat', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 1000px;
+
 }
+
 .container{
     margin:0px 166px;
 }
+
 .header{
-    background-image:url(2389.jpg);
-    height: 100vh;
+    background-color:chocolate;
+    color:black;
+    height: 100px;
     background-repeat:no-repeat;
     background-size:cover; 
 
@@ -28,21 +35,32 @@
     margin-right:25px;
 }
 
+
 .footer{
     
-    background-image:url(20.jpg);
-    height: 30px;
-}
+    margin: 0;
+    
 
-.footer-item{
-  
+    height: 30px;
+    background-color:chocolate;
+    width: 120%;
     color:#fff;
-    position: relative; 
-    left: 160px;
+    position: fixed;
+    top:700px;
+    bottom:0;
+    left: 0;
     text-decoration: none;
     font-weight:700;
     font-size: 14px;
     margin-right:25px;
+    
+}
+
+.foota{
+    position: fixed;
+    top:700px;
+    bottom:-5px;
+    left: 160px;
 }
 
 .header-logo{
@@ -80,3 +98,32 @@ table{
     top: 300px;
     border-radius: 30%;
 }
+
+.e-type {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 75px);
+    grid-gap: 38px;
+    justify-content: start;
+  
+    width: 1370px;
+    border: 2px solid red;
+    height: 400px;
+    
+    resize: both;
+    overflow: hidden;
+  }
+  
+  .type_e {
+    border: 2px solid red;
+    width: 100px;
+    height: 50px;
+    font: 20px sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 50px;
+    text-align: center;
+  }
+
+
+
