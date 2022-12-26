@@ -1,0 +1,203 @@
+.body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    margin:0px 166px;
+}
+.header{
+    background-image:url(2389.jpg);
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size:cover; 
+
+
+    
+}
+
+.header-line{
+    padding-top: 60px;
+    display:flex;
+}
+
+.nav-item{
+    color:#fff;
+    text-decoration: none;
+    font-weight:700;
+    font-size: 14px;
+    margin-right:25px;
+}
+
+.footer{
+    
+    background-image:url(20.jpg);
+    height: 30px;
+    position: relative;
+    top: 200px;
+}
+
+.footer-item{
+  
+    color:#fff;
+    position: relative; 
+    left: 160px;
+    text-decoration: none;
+    font-weight:700;
+    font-size: 14px;
+    margin-right:25px;
+    
+}
+
+.header-logo{
+    margin: 100px 166px;
+}
+
+table{
+    position:relative;
+    top:110px;
+    color:#fff;
+}
+
+.button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color:#fff;
+    position: relative; 
+    left: 1100px;
+    background-color:deeppink;
+    border-radius: 6px;
+    border: 2px solid darkred;
+}
+
+
+.massive{
+    position: relative;
+    left: 500px;
+    top: 150px;
+
+}
+
+.photo{
+    position: absolute;
+    left: 1110px;
+    top: 300px;
+    border-radius: 30%;
+}
+
+main {
+    width: 100%;
+    
+}
+.main {
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+
+.input {
+    position: relative;
+    left: 50px;
+    top: 10px;
+    width: 500px;
+    height: 250px;
+    resize: none;
+}
+
+.analysis{
+    background-image: url(22.jpg);
+    width: 600px;
+    height: 300px;
+    position: relative;
+    left: 450px;
+    top: 100px;
+}
+
+.buttonform{
+    position: relative;
+    left: 250px;
+    top:20px;
+}
+
+.src_error {
+    color: #ff0000;
+}
+
+.text {
+    margin: 5px;
+    
+    padding: 5px;
+    width: max-content;
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+table {
+    border-collapse: collapse;
+}
+td {
+    width: 250px;
+    vertical-align: top;
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.tbl {
+    margin: 5px;
+   
+    border-radius: 10px;
+    width: 500px;
+    padding: 10px;
+}
+
+.inner-table {
+    margin: 10px;
+    
+}
+
+.btn {
+    margin: 5px;
+    
+    color: #ffffff;
+    
+    top: 1000px;
+}
+.btn:hover {
+    
+    color: #f7f3f3;
+    text-decoration: none;
+}
+
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #434343; */
+    color: #fff;
+    height: 150px;
+}
+  
+header h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.main{
+    color: #f7f3f3;
+    position: relative;
+    top: 20px;
+
+}
+
+
+.btn{
+    position: relative;
+    top:100px;
+}
+
+.inner-table{
+    position: relative;
+    bottom: 100px;
+}
+

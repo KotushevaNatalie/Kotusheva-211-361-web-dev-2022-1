@@ -1,0 +1,96 @@
+.body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    margin:0px 166px;
+}
+.header{
+    
+    
+}
+
+.header-line{
+    padding-top: 60px;
+    display:flex;
+}
+
+.nav-item{
+    color:#fff;
+    text-decoration: none;
+    font-weight:700;
+    font-size: 14px;
+    margin-right:25px;
+}
+
+.footer{
+    
+    background-image:url(20.jpg);
+    height: 30px;
+}
+
+.footer-item{
+  
+    color:#fff;
+    position: relative; 
+    left: 160px;
+    text-decoration: none;
+    font-weight:700;
+    font-size: 14px;
+    margin-right:25px;
+}
+
+.header-logo{
+    margin: 100px 166px;
+}
+
+table{
+    position:relative;
+    top:110px;
+    color:#fff;
+}
+
+.button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color:#fff;
+    position: relative; 
+    left: 1100px;
+    background-color:deeppink;
+    border-radius: 6px;
+    border: 2px solid darkred;
+}
+
+
+.massive{
+    position: relative;
+    left: 500px;
+    top: 150px;
+
+}
+
+.photo{
+    position: absolute;
+    left: 1110px;
+    top: 300px;
+    border-radius: 30%;
+}
+
+.search-form{
+    color: #fff;
+}
+
+.search-field{
+    width: 50%;
+    position: relative;
+    left: 300px;
+    top: 20px;
+}
+
+.search-btn{
+    position: relative;
+    left: 1100px;
+    bottom: 50px;
+    
+}
+

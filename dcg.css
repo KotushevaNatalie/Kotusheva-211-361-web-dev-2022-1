@@ -1,0 +1,16 @@
+.product_menu{
+    background: lightgrey;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+.table_form{
+    display:inline-block;
+    margin-left: 15px;
+}
+.block_form{
+    border: 1px black solid;
+    width: 60px;
+    display:inline-block;
+    margin-left: 15px;
+}

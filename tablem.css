@@ -1,0 +1,192 @@
+.body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    margin:0px 166px;
+}
+.header{
+    
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size:cover; 
+    
+}
+
+.header-line{
+    padding-top: 60px;
+    display:flex;
+}
+
+.nav-item{
+    color:#fff;
+    text-decoration: none;
+    font-weight:700;
+    font-size: 14px;
+    margin-right:25px;
+}
+
+.footer{
+    
+    background-image:url(20.jpg);
+    height: 30px;
+}
+
+.footer-item{
+  
+    color:#fff;
+    position: relative; 
+    left: 160px;
+    text-decoration: none;
+    font-weight:700;
+    font-size: 14px;
+    margin-right:25px;
+}
+
+.header-logo{
+    margin: 100px 166px;
+}
+
+table{
+    position:relative;
+    top:110px;
+    color:#fff;
+}
+
+.button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color:#fff;
+    position: relative; 
+    left: 1100px;
+    background-color:deeppink;
+    border-radius: 6px;
+    border: 2px solid darkred;
+}
+
+
+.massive{
+    position: relative;
+    left: 500px;
+    top: 150px;
+
+}
+
+.photo{
+    position: absolute;
+    left: 1110px;
+    top: 300px;
+    border-radius: 30%;
+}
+
+
+
+#main_menu {
+    padding: 20px 0;
+    text-align: center;
+}
+
+#main_menu a{
+    text-decoration: none;
+    margin-right: 40px;
+
+}
+
+.selected {
+    color: rgb(199, 22, 43);
+}
+
+main {
+    flex: 1;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+#product_menu {
+    display: inline-block;
+    background-color:rgb(227, 155, 224);
+    width: 300px;
+    height: auto;
+    text-align: center;
+    padding: 20px 20px;
+    margin: 30px;
+    vertical-align: middle;
+}
+
+#product_menu a {
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+
+
+.bvRow {
+    background-color: rgb(244, 87, 197);
+    display: inline-block;
+    border: 1px solid #000;
+    font-size: 24px;
+    margin-left: 10px;
+    line-height: 150%;
+    padding: 20px 10px;
+}
+
+.bvSingleRow {
+    background-color: rgb(168, 41, 41);
+    border: 1px solid #000;
+    font-size: 30px;
+    padding: 20px 30px;
+    line-height: 150%;
+    margin-left: 300px;
+    top:0px;
+    width: 90px;
+}
+
+.tvRow {
+    border-collapse: collapse;
+    background-color: rgb(212, 75, 75);
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 22px;
+    top:0px;
+    
+}
+
+.tvSingleRow {
+    background-color: rgb(196, 69, 69);
+    border-collapse: collapse;
+    padding: 10px;
+    line-height: 150%;
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 200px;
+    margin-left: 300px;
+    top:0px;
+}
+
+td {
+    border: 1px solid #000;
+    padding: 5px 10px;
+}
+
+tr {
+    border: 1px solid #000;
+}
+
+.product-menu{
+    position: relative;
+    right: 200px;
+}
+
+.exmple{
+    vertical-align: middle;
+    position: relative;
+    left: 400px;
+    
+    bottom: 500px;
+}
+
+
+
